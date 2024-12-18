@@ -4,6 +4,7 @@ void main()
 	int n,sum =0,rev =0,rem,temp=n;
 	printf("enter the number or value of n :- ");
 	scanf("%d",&n);
+        temp = n;
 	while(n>0)
 	{	rem = n%10;
 		rev = rev*10+rem;
